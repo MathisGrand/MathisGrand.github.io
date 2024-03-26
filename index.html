@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Archivo+Black&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Mathis Grand</title>
 </head>
-<body class="bg-zinc-700 text-white">
+<body class="bg-zinc-700 text-white" style="font-family: 'Abel', sans-serif;">
     
     <header class="fixed inset-x-0 top-0 z-50">
         <div class="flex justify-center items-center space-x-44 h-28 bg-zinc-800 rounded-b-md mx-8 shadow-lg">
             <a href="index.html#bvn" class="hover:text-orange-600 hover:scale-110 transition delay-150 text-3xl"><p>Mathis Grand</p></a>
             <div class="flex justify-center items-center space-x-8 text-xl">
-                <a href="index.html#quisuisje" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Qui suis-je?</p></a>
+                <a href="index.html#bvn" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Qui suis-je?</p></a>
                 <a href="index.html#competences" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Compétences</p></a>
                 <a href="index.html#parcours" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Scolarité</p></a>
                 <a href="index.html#professionnel" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Expériences professionnel</p></a>
@@ -27,34 +30,35 @@
     </div>
 
     <div class="space-y-16">
-        <div>
-            <div class="bg-fixed bg-center bg-no-repeat bg-[url('Pantheon_6.jpg')] py-64">
+        <div class="flex justify-center items-center flex-col">
+            <div class="bg-cover bg-fixed bg-center bg-no-repeat bg-[url('parallax.jpg')] py-64 w-4/5">
                 <div id="bvn" class="flex justify-center items-center">
-                    <p class="text-4xl hover:text-orange-600 hover:scale-110 transition delay-150">" Bienvenue sur mon portfollio ! "</p>
+                    <p class="text-4xl hover:text-orange-600 hover:scale-110 transition delay-150" >" Bienvenue sur mon portfollio ! "</p>
                 </div>
             </div>
             <div id="quisuisje" class="flex items-center justify-center space-x-24">
                 <div class=" flex flex-col">
-                    <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 mb-4">Qui suis-je?</p>
-                    <a href="CV Mathis Grand.pdf" class="hover:text-orange-600 hover:scale-110 transition delay-150"><p>Curriculum Vitae</p></a>
+                    <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 mb-4 font-semibold" >Qui suis-je?</p>
                 </div>
-                <article class="text-wrap bg-white w-2/4 flex items-center justify-center h-96 text-black">
-                    <p>sdbslkdnonfonsefnsflcs
-                        nfloesnfons
-                        ekfjenflknlkn,mlk,em,sljnfiuni</p>
+                <article class="text-wrap bg-white w-2/4 flex items-center justify-center h-96 text-black text-xl p-20">
+                    <p>Actuellement en <strong>BTS SIO</strong>, je suis un jeune dévelopeur de 21 ans apprenant depuis maintenant 2 ans la programmation.
+                    C'est après plusieurs réorientations que j'ai décidé de me rapprocher de mes pations personnel, de l'informatique et des nouvelles technologies.
+                    Je n'ai pas peur du changement et j'envisage de m'expatrier une fois mes études finies. 
+                    </p>
                 </article>
             </div>
-            <div class="bg-fixed bg-center bg-no-repeat bg-[url('Pantheon_6.jpg')] py-44">
+            <div class=" bg-cover bg-fixed bg-center bg-no-repeat bg-[url('parallaxx.jpg')] py-44 w-4/5">
+                
 
             </div>
         </div>
     
         <div class="space-y-16">
             <div id="competences" class="flex justify-center items-center">
-                <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150">Mes compétences</p>
+                <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 font-semibold">Mes compétences</p>
             </div>
             <div class="flex items-center justify-center space-x-24 flex-row space-y-16">
-                <div class="bg-red-w300 text-4xl px-10">
+                <div class="font-semibold bg-red-w300 text-4xl px-10">
                     Je parle courrament :
                 </div>
                 <div class="flex space-y-12 flex-col bg-zinc-100 w-1/2 items-center justify-center py-12 rounded-lg">
@@ -67,7 +71,7 @@
                 </div>
             </div>
             <div class="flex items-center justify-center flex-row space-y-16">
-                <div class="bg-red-w300 text-4xl px-24">
+                <div class="bg-red-w300 text-4xl px-24 font-semibold">
                     Mes languages 
                     <br>
                     de programmation :
@@ -94,7 +98,7 @@
                         <img src="pancarte minecraft.png" alt="" class="mt-12">
                     </div>
                     <div class="">
-                        <a href=""><img src="Enchanted_Book.gif" alt="" class="h-52 absolute absolute-book z-40"></a>
+                        <a href="Attestation rgpd.pdf"><img src="Enchanted_Book.gif" alt="" class="h-52 absolute absolute-book z-40 hover:scale-110 transition"></a>
                         <img src="Quartz_Pillar__UD__JE3_BE2.png" alt="" class="mt-20">
                     </div>
                 </div>
@@ -105,7 +109,7 @@
             <div class="flex rounded-l-lg justify-end items-center mt-36">
                 <div class="flex bg-zinc-100 rounded-lg ml-16">
                     <div class="mySlides rounded-lg p-8 text-white">
-                        <div class="bg-[url('baccalauréat.jpg')] rounded-lg shadow-lg h-96">
+                        <div class="bg-[url('baccalauréat.jpg')] bg-cover rounded-lg shadow-lg h-96">
                             <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
                                 <div class="flex flex-row space-x-12 items-center justify-center">
                                     <p class="text-3xl">Notre-Dame</p>
@@ -121,7 +125,7 @@
                         </div>
                     </div>
                     <div class="mySlides rounded-lg p-8 text-white">
-                        <div class="bg-[url('Irlande.jpg')] rounded-lg shadow-lg h-96">
+                        <div class="bg-[url('Irlande.jpg')] bg-cover rounded-lg shadow-lg h-96">
                             <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
                                 <div class="flex flex-row space-x-12 items-center justify-center">
                                     <p class="text-3xl">Mullingar community college</p>
@@ -153,7 +157,7 @@
                         </div>
                     </div>
                     <div class="mySlides rounded-lg p-8 text-white">
-                        <div class="bg-[url('dévelopeur.jpg')] rounded-lg shadow-lg h-96">
+                        <div class="bg-[url('dévelopeur.jpg')] bg-cover rounded-lg shadow-lg h-96">
                             <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
                                 <div class="flex flex-row space-x-12 items-center justify-center">
                                     <p class="text-3xl">BTS SIO SLAM</p>
@@ -185,17 +189,19 @@
                 </div>
                 <div class="items-center justify-center flex flex-col">
                     <div class="flex justify-center items-center absol space-x-12">
-                        <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150">Parcours Scolaire</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12" onclick="previousSlide(-1)">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
-                          </svg>   
+                        <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 font-semibold">Parcours Scolaire</p>
+                        <button>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 hover:scale-110 transition" onclick="previousSlide(-1)">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
+                              </svg>   
+                        </button>
                     </div>        
                       <div class="flex bg-zinc-100  my-12 ml-24 rounded-l-lg overflow-x-auto slider p-8 scroll-smooth" id="slider"> 
-                        <img src="lycee_notre_dame_va.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demo object-cover mr-12" onclick="currentSlide(1)">
-                        <img src="mullingar_community_college.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demo object-cover mr-12" onclick="currentSlide(2)">
-                        <img src="campus_lille_LEA.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demo object-cover mr-12" onclick="currentSlide(3)">
-                        <img src="saint-luc.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demo" onclick="currentSlide(4)">
-                        <img src="cegep_saint-félicien.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demo" onclick="currentSlide(5)">
+                        <img src="lycee_notre_dame_va.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demo object-cover mr-12 hover:scale-110 transition cursor-pointer" onclick="currentSlide(1)">
+                        <img src="mullingar_community_college.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demo object-cover mr-12 hover:scale-110 transition cursor-pointer" onclick="currentSlide(2)">
+                        <img src="campus_lille_LEA.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demo object-cover mr-12 hover:scale-110 transition cursor-pointer" onclick="currentSlide(3)">
+                        <img src="saint-luc.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demo hover:scale-110 transition cursor-pointer" onclick="currentSlide(4)">
+                        <img src="cegep_saint-félicien.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demo hover:scale-110 transition cursor-pointer" onclick="currentSlide(5)">
                         <img src="campus_lille_LEA.jpg" alt="" class="h-56 rounded-lg shadow-lg object-cover mr-12 opacity-0">
                         <img src="saint-luc.jpg" alt="" class="h-56 rounded-lg shadow-lg object-cover mr-12 opacity-0">
                     </div>                
@@ -235,11 +241,7 @@
                 for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";
                 }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
                 slides[slideIndex-1].style.display = "block";
-                dots[slideIndex-1].className += " active";
                 var oldSlideIndex = slideIndex;
                 localStorage.setItem("oldSlide", oldSlideIndex);
             }
@@ -353,19 +355,19 @@
         </div>
         <div class="items-center justify-center flex flex-col">
             <div class="flex justify-center items-center space-x-12">
-                <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150">Mes expériences professionnel</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12" onclick="previousSlide2(-1)">
+                <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 font-semibold">Mes expériences professionnel</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12 hover:scale-110 transition cursor-pointer" onclick="previousSlide2(-1)">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3" />
                   </svg>           
             </div>
               <div class="flex bg-zinc-100  my-12 ml-24 rounded-l-lg overflow-x-auto slider p-8 scroll-smooth" id="slider2"> 
-                <img src="icon_mcdo_hamburger.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demonique object-cover mr-12" onclick="currentSlide2(1)">
-                <img src="icon_snack'n'roll.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demonique object-cover mr-12" onclick="currentSlide2(2)">
-                <img src="icon_toyota.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demonique object-cover mr-12" onclick="currentSlide2(3)">
-                <img src="icon_plonge.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique" onclick="currentSlide2(4)">
-                <img src="icon_dj.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique" onclick="currentSlide2(5)">
-                <img src="icon caissié.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique" onclick="currentSlide2(6)">
-                <img src="icon_hb.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique" onclick="currentSlide2(7)">
+                <img src="icon_mcdo_hamburger.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demonique object-cover mr-12 hover:scale-110 transition cursor-pointer" onclick="currentSlide2(1)">
+                <img src="icon_snack'n'roll.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demonique object-cover mr-12 hover:scale-110 transition cursor-pointer" onclick="currentSlide2(2)">
+                <img src="icon_toyota.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg demonique object-cover mr-12 hover:scale-110 transition cursor-pointer" onclick="currentSlide2(3)">
+                <img src="icon_plonge.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique hover:scale-110 transition cursor-pointer" onclick="currentSlide2(4)">
+                <img src="icon_dj.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique hover:scale-110 transition cursor-pointer" onclick="currentSlide2(5)">
+                <img src="icon caissié.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique hover:scale-110 transition cursor-pointer" onclick="currentSlide2(6)">
+                <img src="icon_hb.jpg" alt="" class="h-56 w-72 rounded-lg shadow-lg object-cover mr-12 demonique hover:scale-110 transition cursor-pointer" onclick="currentSlide2(7)">
                 <img src="campus_lille_LEA.jpg" alt="" class="h-56 rounded-lg shadow-lg object-cover mr-12 opacity-0">
                 <img src="saint-luc.jpg" alt="" class="h-56 rounded-lg shadow-lg object-cover mr-12 opacity-0">
             </div>                
@@ -410,12 +412,8 @@
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
     
     slides[slideIndex2 - 1].style.display = "block";
-    dots[slideIndex2 - 1].className += " active";
 
     localStorage.setItem("oldSlide2", slideIndex2);
 }
@@ -424,22 +422,130 @@
     
         <div id="SIO" class="flex justify-center items-center flex-col space-y-20">
             <div>
-                <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 mt-24">BTS SIO</p>
+                <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 mt-24 font-semibold">BTS SIO</p>
             </div>
-            <div class="h-screen grid grid-cols-2">
-                <div class="bg-cover bg-center bg-no-repeat bg-[url('CV.png')] h-full w-full">
-                    <div>
-                        <button></button>
+            <div class=" flex space-x-48">
+                <div class="flex flex-col relative group">
+                    <button>
+                        <img src="CV.png" alt="" class="w-96 rounded-lg shadow-lg hover:blur-sm transition delay-250">
+                    </button>
+                    <div class="absolute inset-0 flex justify-center items-center group-hover:backdrop-blur-sm rounded-lg shadow-lg delay-150 transition">
+                        <div>
+                            <a href="CV Mathis Grand.pdf">
+                                <button class="border-zinc-700 border-2 p-2 rounded-lg hidden group-hover:block transition delay-150">
+                                    <p class="text-zinc-700 hidden group-hover:block transition delay-150">Visualiser le Curriculum Vitae</p>
+                                </button>
+                            </a>
+                        </div>
                     </div>
-                </div> 
-                <div class="bg-cover bg-center bg-no-repeat bg-[url('CV.png')] h-full w-full">
-                    <div>
-                        <button></button>
+                </div>                
+                <div class="flex flex-col relative group justify-center items-center">
+                    <button>
+                        <img src="tableau_E4.png" alt="" class="h-96 rounded-lg shadow-lg hover:blur-sm transition delay-250">
+                    </button>
+                    <div class="absolute inset-0 flex justify-center items-center group-hover:backdrop-blur-sm rounded-lg shadow-lg delay-150 transition my-20">
+                        <div>
+                            <a href="tableau_E4.pdf">
+                                <button class="border-zinc-700 border-2 p-2 rounded-lg hidden group-hover:block transition delay-150">
+                                    <p class="text-zinc-700 hidden group-hover:block transition delay-150">Visualiser le tableau de compétences</p>
+                                </button>
+                            </a>
+                        </div>
                     </div>
-                </div> 
+                </div>                
+            </div>
+            <div class="flex flex-col">
+                <div class="text-5xl flex justify-center items-center mb-12 font-semibold">
+                    <p>Articles de veille</p>
+                </div>
+                <div class="grid grid-cols-3"> 
+                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
+                        <div class="flex justify-center items-center">
+                            <p class="text-3xl">Titre de l'article</p>
+                        </div>
+                        <div class="flex flex-col space-x-8">
+                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                        </div>
+                        <div>    
+                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                        </div>
+                        <div class="">
+                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
+                        <div class="flex justify-center items-center ">
+                            <p class="text-3xl">Titre de l'article</p>
+                        </div>
+                        <div class="flex flex-col space-x-8">
+                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                        </div>
+                        <div>    
+                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                        </div>
+                        <div class="">
+                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
+                        <div class="flex justify-center items-center">
+                            <p class="text-3xl">Titre de l'article</p>
+                        </div>
+                        <div class="flex flex-col space-x-8">
+                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                        </div>
+                        <div>    
+                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                        </div>
+                        <div class="">
+                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
+                        <div class="flex justify-center items-center">
+                            <p class="text-3xl">Titre de l'article</p>
+                        </div>
+                        <div class="flex flex-col space-x-8">
+                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                        </div>
+                        <div>    
+                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                        </div>
+                        <div class="">
+                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
+                        <div class="flex justify-center items-center">
+                            <p class="text-3xl">Titre de l'article</p>
+                        </div>
+                        <div class="flex flex-col space-x-8">
+                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                        </div>
+                        <div>    
+                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                        </div>
+                        <div class="">
+                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
+                        <div class="flex justify-center items-center">
+                            <p class="text-3xl">Titre de l'article</p>
+                        </div>
+                        <div class="flex flex-col space-x-8">
+                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                        </div>
+                        <div>    
+                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                        </div>
+                        <div class="">
+                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     <footer>
         <div>
 

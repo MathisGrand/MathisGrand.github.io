@@ -13,9 +13,9 @@
 <body class="bg-zinc-700 text-white" style="font-family: 'Abel', sans-serif;">
     
     <header class="fixed inset-x-0 top-0 z-50">
-        <div class="flex justify-center items-center space-x-44 h-28 bg-zinc-800 rounded-b-md mx-8 shadow-lg">
-            <a href="index.html#bvn" class="hover:text-orange-600 hover:scale-110 transition delay-150 text-3xl"><p>Mathis Grand</p></a>
-            <div class="flex justify-center items-center space-x-8 text-xl">
+        <div class="flex justify-center items-center space-x-8 md:space-x-44 h-28 bg-zinc-800 rounded-b-md mx-8 shadow-lg">
+            <a href="index.html#bvn" class="hover:text-orange-600 hover:scale-110 transition delay-150 text-xl md:text-3xl hidden md:block"><p>Mathis Grand</p></a>
+            <div class="flex justify-center items-center space-x-2 md:space-x-8 text-xl">
                 <a href="index.html#bvn" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Qui suis-je?</p></a>
                 <a href="index.html#competences" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Compétences</p></a>
                 <a href="index.html#parcours" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Scolarité</p></a>
@@ -31,16 +31,16 @@
 
     <div class="space-y-16">
         <div class="flex justify-center items-center flex-col">
-            <div class="bg-cover bg-fixed bg-center bg-no-repeat bg-[url('parallax.jpg')] py-64 w-4/5">
+            <div class="bg-cover bg-fixed bg-center bg-no-repeat bg-[url('parallax.jpg')] w-4/5">
                 <div id="bvn" class="flex justify-center items-center">
-                    <p class="text-4xl hover:text-orange-600 hover:scale-110 transition delay-150" >" Bienvenue sur mon portfollio ! "</p>
+                    <p class=" text-2xl :text-4xl hover:text-orange-600  transition delay-150 bg-black/50 w-full text-center py-64" >" Bienvenue sur mon portfollio ! "</p>
                 </div>
             </div>
-            <div id="quisuisje" class="flex items-center justify-center space-x-24">
+            <div id="quisuisje" class="flex md:flex-row flex-col items-center justify-center md:space-x-24">
                 <div class=" flex flex-col">
-                    <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 mb-4 font-semibold" >Qui suis-je?</p>
+                    <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 mb-4 font-semibold p-8 md:p-0" >Qui suis-je?</p>
                 </div>
-                <article class="text-wrap bg-white w-2/4 flex items-center justify-center h-96 text-black text-xl p-20">
+                <article class="text-wrap bg-white w-full md:w-2/4 flex items-center justify-center h-96 text-black text-xl p-20">
                     <p>Actuellement en <strong>BTS SIO</strong>, je suis un jeune dévelopeur de 21 ans apprenant depuis maintenant 2 ans la programmation.
                     C'est après plusieurs réorientations que j'ai décidé de me rapprocher de mes pations personnel, de l'informatique et des nouvelles technologies.
                     Je n'ai pas peur du changement et j'envisage de m'expatrier une fois mes études finies. 
@@ -57,11 +57,11 @@
             <div id="competences" class="flex justify-center items-center">
                 <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 font-semibold">Mes compétences</p>
             </div>
-            <div class="flex items-center justify-center space-x-24 flex-row space-y-16">
+            <div class="flex items-center justify-center md:space-x-24 flex-col md:flex-row space-y-16">
                 <div class="font-semibold bg-red-w300 text-4xl px-10">
                     Je parle courrament :
                 </div>
-                <div class="flex space-y-12 flex-col bg-zinc-100 w-1/2 items-center justify-center py-12 rounded-lg">
+                <div class="flex space-y-12 flex-col bg-zinc-100 w-2/3 md:w-1/2 items-center justify-center py-12 rounded-lg">
                     <div>
                         <img src="drapeau_francais.png" alt="" class="h-36 rounded-lg shadow-lg">
                     </div>
@@ -70,23 +70,23 @@
                     </div>
                 </div>
             </div>
-            <div class="flex items-center justify-center flex-row space-y-16">
+            <div class="flex items-center justify-center flex-col md:flex-row space-y-16">
                 <div class="bg-red-w300 text-4xl px-24 font-semibold">
                     Mes languages 
                     <br>
                     de programmation :
                 </div>
                 <div class="flex items-center justify-center flex-col space-y-12 w-1/2 bg-zinc-100 p-8 rounded-lg">
-                    <div class="flex flex-row space-x-12">
+                    <div class="flex flex-col md:flex-row md:space-x-12 space-y-12 md:space-y-0 justify-center items-center">
                         <img src="HTML.png" alt="" class="w-52 ">
                         <img src="css-logo.png" alt="" class="w-36">
                         <img src="PHP-logo.svg.png" alt="" class="h-36">
                     </div>
-                    <div class="flex flex-row space-x-24">
+                    <div class="flex flex-col md:flex-row md:space-x-24 space-y-12 md:space-y-0 justify-center items-center">
                         <img src="Sql_data_base_with_logo.png" alt="" class="h-36">
                         <img src="JavaScript-logo.png" alt="" class="h-36">
                     </div>
-                    <div class="flex flex-row space-x-24">
+                    <div class="flex flex-col md:flex-row md:space-x-24 space-y-12 md:space-y-0 justify-center items-center">
                         <img src="Python-logo-notext.svg.png" alt="" class="h-36">
                         <img src="java.png" alt="" class="h-36">
                     </div>
@@ -97,17 +97,101 @@
                     <div>
                         <img src="pancarte minecraft.png" alt="" class="mt-12">
                     </div>
-                    <div class="">
-                        <a href="Attestation rgpd.pdf"><img src="Enchanted_Book.gif" alt="" class="h-52 absolute absolute-book z-40 hover:scale-110 transition"></a>
-                        <img src="Quartz_Pillar__UD__JE3_BE2.png" alt="" class="mt-20">
+                    <div class=" justify-center items-center">
+                        <a href="Attestation rgpd.pdf"><img src="Enchanted_Book.gif" alt="" class="h-52 absolute z-40 hover:scale-110 transition md:ml-12"></a>
+                        <img src="Quartz_Pillar__UD__JE3_BE2.png" alt="" class="mt-24">
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="flex md:flex-row flex-col bg-zinc-100 rounded-lg md:hidden">
+            <div class="text-black text-4xl flex justify-center items-center py-12" id="parcours">
+                <p>Ma Scolarité</p>
+            </div>
+            <div class=" rounded-lg p-8 text-white">
+                <div class="bg-[url('baccalauréat.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                    <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                        <div class="flex flex-row space-x-12 items-center justify-center">
+                            <p class="text-3xl">Notre-Dame</p>
+                            <p class="text-xl text-zinc-300">Sep. 2017 <br> Jui. 2020</p>
+                        </div>
+                        <div>
+                            <p class="">
+                                Élève au lycée Notre-Dame de valenciennes, j'y ai obtenu en 2020 
+                                
+                                 un baccalauréat ES, lv3 Russe option européenne.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" rounded-lg p-8 text-white">
+                <div class="bg-[url('Irlande.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                    <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                        <div class="flex flex-row space-x-12 items-center justify-center">
+                            <p class="text-3xl">Mullingar community college</p>
+                            <p class="text-xl text-zinc-300">Jan. 2021 Mai 2021</p>
+                        </div>
+                        <div>
+                            <p class="">Après des complications quant à ma poursuite d'études lié au covid 19.
+                                J'ai décidé de partir vivre en Irlande pendant 5 mois. En vivant chez l'habitant,
+                                et en fréquentant un lycée local.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" rounded-lg p-8 text-white">
+                <div class="bg-[url('lille_pont_de_bois.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                    <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                        <div class="flex flex-row space-x-12 items-center justify-center">
+                            <p class="text-3xl">L1 LEA Anglais-Russe</p>
+                            <p class="text-xl text-zinc-300">Sep. 2021
+                                <br> Jan. 2022</p>
+                        </div>
+                        <div>
+                            <p class="">Elève au campus de pont de bois et celui de Roubaix, j'ai décidé d'étudier les langues
+                                à Lille. Cependant la faculté s'est révélé ne pas être un endroit pour moi...
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" rounded-lg p-8 text-white">
+                <div class="bg-[url('dévelopeur.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                    <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                        <div class="flex flex-row space-x-12 items-center justify-center">
+                            <p class="text-3xl">BTS SIO SLAM</p>
+                            <p class="text-xl text-zinc-300">Sep. 2022 <br> Juin 2024</p>
+                        </div>
+                        <div>
+                            <p class="">
+                                Après de nombreux doutes quant à ma poursuite d'études, je me suis tourné vers ma première passion : l'informatique.
+                                Elève au lycée professionnel de Saint-Luc à Cambrai, j'y ai acquis mon savoir faire actuel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" rounded-lg p-8 text-white">
+                <div class="bg-[url('drapeau_canada.png')] bg-cover object-cover rounded-lg shadow-lg h-96">
+                    <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                        <div class="flex flex-row space-x-12 items-center justify-center">
+                            <p class="text-3xl">CEGEP de Saint-Félicien</p>
+                            <p class="text-xl text-zinc-300">Août 2024</p>
+                        </div>
+                        <div>
+                            <p class="">To be continued...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     
-        <div id="parcours" class="flex flex-col justify-center ">
+        <div id="parcours" class="flex flex-col justify-center hidden md:block">
             <div class="flex rounded-l-lg justify-end items-center mt-36">
-                <div class="flex bg-zinc-100 rounded-lg ml-16">
+                <div class="flex md:flex-row flex-col bg-zinc-100 rounded-lg ml-16 ">
                     <div class="mySlides rounded-lg p-8 text-white">
                         <div class="bg-[url('baccalauréat.jpg')] bg-cover rounded-lg shadow-lg h-96">
                             <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
@@ -247,7 +331,117 @@
             }
         </script>
 
-<div id="professionnel" class="flex flex-col justify-center mt-24">
+        <div>
+            <div class="flex flex-col bg-zinc-100 rounded-lg md:hidden">
+                <div class="text-black text-4xl flex justify-center items-center py-12" id="professionnel">
+                    <p>Mes expériences professionnel</p>
+                </div>
+                <div class=" rounded-lg p-8 text-white">
+                    <div class="bg-[url('illustration_mcdo.png')] rounded-lg shadow-lg h-96">
+                        <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                            <div class="flex flex-row space-x-12 items-center justify-center">
+                                <p class="text-3xl">Équipier polyvalent à McDonald's</p>
+                                <p class="text-xl text-zinc-300">Jui. 2021 aout 2021</p>
+                            </div>
+                            <div>
+                                <p class="">Contrat étudiant en cuisine, en tant qu'équipier polyvalent au McDonald's de Valenciennes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" rounded-lg p-8 text-white">
+                    <div class="bg-[url('illustration_frites.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                        <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                            <div class="flex flex-row space-x-12 items-center justify-center">
+                                <p class="text-3xl">Contrat étudiant, <br> livreur et préparateur <br> de commande</p>
+                                <p class="text-xl text-zinc-300">Nov. 2021 <br> Déc 2022</p>
+                            </div>
+                            <div>
+                                <p class="">Contrat étudiant en tant que livreur et préparateur de commandes, à la friterie anciennement Snack'N'Roll situé à Maing. 
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" rounded-lg p-8 text-white">
+                    <div class="bg-[url('illustration_toyota.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                        <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                            <div class="flex flex-row space-x-12 items-center justify-center">
+                                <p class="text-3xl">Contrat étudiant <br> à Toyota</p>
+                                <p class="text-xl text-zinc-300">Jui. 2022 <br>Aout 2022</p>
+                            </div>
+                            <div>
+                                <p class="">Contrat étudiant à l'usine de Toyota à Onnaing, en tant qu'aide aux opérateurs.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" rounded-lg p-8 text-white">
+                    <div class="bg-[url('illustration_chateau_de_la_motte.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                        <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                            <div class="flex flex-row space-x-12 items-center justify-center">
+                                <p class="text-3xl">Missions ponctuel à la plonge</p>
+                                <p class="text-xl text-zinc-300">Mai 2023 Juin 2023</p>
+                            </div>
+                            <div>
+                                <p class="">Plusieurs contrats ponctuel en tant qu'"extra" à la plonge, au chateau de la Motte Fenelon, à Cambrai.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" rounded-lg p-8 text-white">
+                    <div class="bg-[url('illustration_amaury_petit.jpeg')] bg-cover rounded-lg shadow-lg h-96">
+                        <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                            <div class="flex flex-row space-x-12 items-center justify-center">
+                                <p class="text-3xl">Stage de <br> première année</p>
+                                <p class="text-xl text-zinc-300">Mai 2023 <br> Juin 2023</p>
+                            </div>
+                            <div>
+                                <p class="">Stage de seconde année effecté du 15/5/2023 au 16/6/2023. Ma mission y était la réalisation d'un site web
+                                    pour le compte du DJ Amaury Petit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" rounded-lg p-8 text-white">
+                    <div class="bg-[url('illustration_auchan.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                        <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                            <div class="flex flex-row space-x-12 items-center justify-center">
+                                <p class="text-3xl">CDI étudiant hôte polyvalent de caisse</p>
+                                <p class="text-xl text-zinc-300">Jui. 2023 Jui. 2024</p>
+                            </div>
+                            <div>
+                                <p class="">CDD étudiant suivi d'un CDI pour la période scolaire. Mes missions étaient d'assurer l'accueil de la clientèle en caisse. 
+                                    Ainsi que de faire la répartition des articles abandonnés, entre les différents rayons.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" rounded-lg p-8 text-white">
+                    <div class="bg-[url('illustration_hb.jpg')] bg-cover rounded-lg shadow-lg h-96">
+                        <div class="rounded-lg flex flex-col space-y-12 justify-center items-center bg-black bg-opacity-60 h-96 p-8 text-xl">
+                            <div class="flex flex-row space-x-12 items-center justify-center">
+                                <p class="text-3xl">Stage de <br> second année</p>
+                                <p class="text-xl text-zinc-300">Jan. 2024 <br> Fév. 2024</p>
+                            </div>
+                            <div>
+                                <p class="">Stage de seconde année effecté du 15/1/2024 au 16/2/2024. Mes missions étaient de mettre à jour
+                                    le wordpress actuel du site Hélène Boucher ainsi que celui du collège de la Renaissance.
+                                    De plus il m'a été demandé de réaliser la maquette d'une future refonte des deux sites.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+<div id="professionnel" class="flex flex-col justify-center mt-24 hidden md:block">
     <div class="flex rounded-l-lg justify-end items-center mt-36">
         <div class="flex bg-zinc-100 rounded-lg ml-16">
             <div class="mySlides2 rounded-lg p-8 text-white">
@@ -424,7 +618,7 @@
             <div>
                 <p class="text-5xl hover:text-orange-600 hover:scale-110 transition delay-150 mt-24 font-semibold">BTS SIO</p>
             </div>
-            <div class=" flex space-x-48">
+            <div class=" flex md:flex-row flex-col md:space-x-48 justify-center items-center space-y-24 md:space-y-0">
                 <div class="flex flex-col relative group">
                     <button>
                         <img src="CV.png" alt="" class="w-96 rounded-lg shadow-lg hover:blur-sm transition delay-250">
@@ -439,11 +633,11 @@
                         </div>
                     </div>
                 </div>                
-                <div class="flex flex-col relative group justify-center items-center">
+                <div class="flex  relative group justify-center items-center">
                     <button>
                         <img src="tableau_E4.png" alt="" class="h-96 rounded-lg shadow-lg hover:blur-sm transition delay-250">
                     </button>
-                    <div class="absolute inset-0 flex justify-center items-center group-hover:backdrop-blur-sm rounded-lg shadow-lg delay-150 transition my-20">
+                    <div class="absolute inset-0 flex justify-center items-center group-hover:backdrop-blur-sm rounded-lg shadow-lg delay-150 transition h-full">
                         <div>
                             <a href="tableau_E4.pdf">
                                 <button class="border-zinc-700 border-2 p-2 rounded-lg hidden group-hover:block transition delay-150">
@@ -458,7 +652,7 @@
                 <div class="text-5xl flex justify-center items-center mb-12 font-semibold">
                     <p>Articles de veille</p>
                 </div>
-                <div class="grid grid-cols-3"> 
+                <div class="md:grid md:grid-cols-3 flex flex-col"> 
                     <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
                         <div class="flex justify-center items-center">
                             <p class="text-3xl">Titre de l'article</p>

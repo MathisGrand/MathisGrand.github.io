@@ -2,6 +2,14 @@
     right:470px;
 }
 
+.respabsolute-book{
+    right: 0px;
+}
+
+.respabsolute-bookbig{
+    right: 0px;
+}
+
 .mySlides {
     display: none;
   }

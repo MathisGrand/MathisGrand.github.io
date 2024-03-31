@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Archivo+Black&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Mathis Grand</title>
 </head>
@@ -21,6 +23,7 @@
                 <a href="index.html#parcours" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Scolarité</p></a>
                 <a href="index.html#professionnel" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>Expériences professionnel</p></a>
                 <a href="index.html#SIO" class="hover:text-orange-600 hover:scale-110 transition delay-150 "><p>BTS SIO</p></a>
+                <a href="https://www.linkedin.com/in/mathis-grand-589591259" class="justify-center items-center flex"><ion-icon name="logo-linkedin" class="hover:color-orange-600 hover:scale-110 transition    "></ion-icon></a>
             </div>
         </div>
     </header>
@@ -98,7 +101,7 @@
                         <img src="pancarte minecraft.png" alt="" class="mt-12">
                     </div>
                     <div class=" justify-center items-center">
-                        <a href="Attestation rgpd.pdf"><img src="Enchanted_Book.gif" alt="" class="h-52 absolute z-40 hover:scale-110 transition md:ml-12"></a>
+                        <a href="Attestation rgpd.pdf"><img src="Enchanted_Book.gif" alt="" class="h-52 absolute z-40 hover:scale-110 transition md:ml-12 h-12"></a>
                         <img src="Quartz_Pillar__UD__JE3_BE2.png" alt="" class="mt-24">
                     </div>
                 </div>
@@ -625,7 +628,7 @@
                     </button>
                     <div class="absolute inset-0 flex justify-center items-center group-hover:backdrop-blur-sm rounded-lg shadow-lg delay-150 transition">
                         <div>
-                            <a href="CV Mathis Grand.pdf">
+                            <a target="_blank" href="CV Mathis Grand.pdf">
                                 <button class="border-zinc-700 border-2 p-2 rounded-lg hidden group-hover:block transition delay-150">
                                     <p class="text-zinc-700 hidden group-hover:block transition delay-150">Visualiser le Curriculum Vitae</p>
                                 </button>
@@ -639,7 +642,7 @@
                     </button>
                     <div class="absolute inset-0 flex justify-center items-center group-hover:backdrop-blur-sm rounded-lg shadow-lg delay-150 transition h-full">
                         <div>
-                            <a href="tableau_E4.pdf">
+                            <a target="_blank" href="tableau_E4.pdf">
                                 <button class="border-zinc-700 border-2 p-2 rounded-lg hidden group-hover:block transition delay-150">
                                     <p class="text-zinc-700 hidden group-hover:block transition delay-150">Visualiser le tableau de compétences</p>
                                 </button>
@@ -652,89 +655,69 @@
                 <div class="text-5xl flex justify-center items-center mb-12 font-semibold">
                     <p>Articles de veille</p>
                 </div>
-                <div class="md:grid md:grid-cols-3 flex flex-col"> 
+                <div class="md:grid md:grid-cols-2 flex flex-col"> 
                     <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
                         <div class="flex justify-center items-center">
-                            <p class="text-3xl">Titre de l'article</p>
+                            <p class="text-3xl">France Travail : des arnaques utilisent déjà les données piratées, attention à ces messages                            </p>
                         </div>
                         <div class="flex flex-col space-x-8">
-                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                            <img src="veille-cyberattaque.png" alt="" class="rounded-lg shadow-lg ">
                         </div>
                         <div>    
-                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                            <p class="text-xl">Des données piratées de France Travail entraînent des escroqueries en ligne. Des SMS frauduleux proposent un emploi fictif, exploitant la vulnérabilité des demandeurs d'emploi. 43 millions de personnes sont potentiellement affectées par ce piratage, avec des conseils pour se protéger. Trois suspects ont été arrêtés dans cette affaire.                            </p>
                         </div>
                         <div class="">
-                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            <a target="_blank" href="https://www.tf1info.fr/high-tech/france-travail-cyberattaque-piratage-comptes-des-arnaques-utilisant-les-donnees-signalees-attention-a-ces-messages-2292927.html">
+                                <button class="text-2xl border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            </a>
                         </div>
                     </div>
                     <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
                         <div class="flex justify-center items-center ">
-                            <p class="text-3xl">Titre de l'article</p>
+                            <p class="text-3xl">Neuralink publie la vidéo du premier patient : « Cela a changé ma vie »                            </p>
                         </div>
                         <div class="flex flex-col space-x-8">
-                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                            <img src="veille-elonmusk.png" alt="" class="rounded-lg shadow-lg ">
                         </div>
                         <div>    
-                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                            <p class="text-xl">Neuralink montre sa première démo avec un patient paralysé contrôlant un jeu d'échecs par la pensée. Un pas vers la télépathie et l'amélioration des capacités humaines.                            </p>
                         </div>
                         <div class="">
-                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            <a target="_blank" href="https://iatranshumanisme.com/2024/03/21/neuralink-publie-la-video-du-premier-patient-cela-a-change-ma-vie/">
+                                <button class="text-2xl p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            </a>
                         </div>
                     </div>
                     <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
                         <div class="flex justify-center items-center">
-                            <p class="text-3xl">Titre de l'article</p>
+                            <p class="text-3xl">Exotec implante sa R&D logicielle à Lyon                            </p>
                         </div>
                         <div class="flex flex-col space-x-8">
-                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                            <img src="veille-exotec.png" alt="" class="rounded-lg shadow-lg ">
                         </div>
                         <div>    
-                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                            <p class="text-xl">La start-up Exotec, spécialisée dans les robots pour entrepôts logistiques, implante une équipe de R&D à Lyon pour développer ses logiciels. Prévoit des recrutements et l'assemblage des robots dès 2025.                            </p>
                         </div>
                         <div class="">
-                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            <a target="_blank" href="https://www.usine-digitale.fr/article/exotec-implante-sa-r-d-logicielle-a-lyon.N2183913">
+                                <button class="text-2xl border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            </a>
                         </div>
                     </div>
                     <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
                         <div class="flex justify-center items-center">
-                            <p class="text-3xl">Titre de l'article</p>
+                            <p class="text-3xl">C'est quoi le rabbit R1, cet objet dont tout le monde parle au CES ?</p>
                         </div>
                         <div class="flex flex-col space-x-8">
-                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
+                            <img src="veille-rabbitr6.png" alt="" class="rounded-lg shadow-lg ">
                         </div>
                         <div>    
-                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
+                            <p class="text-xl">Au CES 2024, Rabbit R1, un compagnon propulsé par l'IA, suscite l'attention. Il interagit avec les applications sans API, rivalisant avec Zapier. Son OS basé sur le cloud offre des fonctionnalités vocales. En précommande à 199$, il intrigue malgré son utilité encore floue.                            </p>
                         </div>
                         <div class="">
-                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
-                        </div>
-                    </div>
-                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
-                        <div class="flex justify-center items-center">
-                            <p class="text-3xl">Titre de l'article</p>
-                        </div>
-                        <div class="flex flex-col space-x-8">
-                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
-                        </div>
-                        <div>    
-                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
-                        </div>
-                        <div class="">
-                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
-                        </div>
-                    </div>
-                    <div class="flex flex-col justify-center items-center space-y-8 bg-zinc-100 text-black p-8 m-8 rounded-lg">
-                        <div class="flex justify-center items-center">
-                            <p class="text-3xl">Titre de l'article</p>
-                        </div>
-                        <div class="flex flex-col space-x-8">
-                            <img src="Pantheon_6.jpg" alt="" class="rounded-lg shadow-lg hover:scale-110 transition delay-150">
-                        </div>
-                        <div>    
-                            <p>Nam gravida at nunc in sollicitudin. Pellentesque a turpis orci. Nam sed iaculis neque. Pellentesque consectetur neque et vehicula consectetur. Donec aliquet velit justo, eget maximus mi feugiat id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nibh lorem, sollicitudin nec metus a, hendrerit fringilla ligula. Ut gravida, dolor non porttitor auctor, dui massa pulvinar arcu, a eleifend ipsum mauris at lorem. Etiam at molestie nisl, nec ullamcorper nisi. Donec dapibus est erat, eu tempus nunc placerat ac. Donec auctor magna nisl, in iaculis elit feugiat non.</p>
-                        </div>
-                        <div class="">
-                            <button class="border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            <a target="_blank" href="https://www.bfmtv.com/tech/intelligence-artificielle/ces-2024-c-est-quoi-le-rabbit-r1-cet-objet-dope-a-l-ia-dont-tout-le-monde-parle_AV-202401110491.html">
+                                <button class="text-2xl border-2 p-2 rounded-lg border-zinc-400 hover:scale-110 transition delay-150 text-white bg-zinc-700 hover:bg-orange-600 hover:border-zinc-600">Redirection vers l'article</button>
+                            </a>
                         </div>
                     </div>
                 </div>
